@@ -1,0 +1,37 @@
+# Snippet for creating new generic LaTeX environments
+snippet benv "New LaTeX environment" b
+\begin{$1}
+    $2
+\end{$1}
+$0
+endsnippet
+
+# Snippet for italic font
+snippet itt "The \textit{} command for italic font"
+\textit{${1:${VISUAL:}}}$0
+endsnippet
+
+# Snippet for italic font
+snippet bft "The \textbf{} command for bold font"
+\textbf{${1:${VISUAL:}}}$0
+endsnippet
+
+snippet fig "The snippet to create a new figure"
+\begin{figure}[$1]
+    \centering
+    \includegraphics[width=$2\textwidth]{$3}
+    \caption{$4}
+    \label{$5}
+\end{figure}$0
+endsnippet
+
+snippet tab "The snippet to create a table"
+\begin{table}[$1]
+    \centering
+    \begin{tabular}{$2}
+        $3
+    \end{tabular}
+    \caption{$4}
+    \label{$5}
+\end{table}$0
+endsnippet
