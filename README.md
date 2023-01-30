@@ -1,1 +1,1 @@
-This will be where I store my neovim config files so that I can more easily start using them whenever I work on a remote machine
+This will be where I store my neovim config files so that I can more easily start using them whenever I work on a remote machine. It is, however, mostly stolen and relatively clumsy. If you are looking for a cool neovim confiuration, this is probably not it. THIS GITHUB REPO IS PUBLIC BECAUSE I AM LAZY AND DO NOT WANT TO SIGN IN ON ANY REMOTE MACHINE I USE. NOT BECAUSE THIS IS A GOOD CONFIGURATION.
