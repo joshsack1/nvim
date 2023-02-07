@@ -15,3 +15,7 @@ let g:UltiSnipsJumpBackwardTrigger = '<S-Tab>'  " use Shift-Tab to move backward
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/UltiSnips']  " Set UtliSnips home directory
 " Use Skim as the VimTeX PDF viewer
 let g:vimtex_view_method = 'skim'
+" Auto Remap open brackets to open and close brackets
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
