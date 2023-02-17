@@ -19,14 +19,15 @@ snippet hw "Sets up my standard homework format"
 \usepackage{subfiles}
 %\usepackage[usenames,dvipsnames]{xcolor}%adds Mahogany Color
 
-\title{$1 \\ \bigskip\\ \large{ECON $2}}
+\title{$1  \bigskip \\ \large{ECON $2}}
 \author{Joshua A. Sack\thanks{American University, js6057b@american.edu}}
-\date{today}
-
+\date{\today}
 \begin{document}
 \begin{titlingpage}
     \maketitle
 \end{titlingpage}
+    \bibliography{Bib}
+    \bibliographystyle{apalike}
 \end{document}
 $0
 endsnippet
@@ -41,6 +42,8 @@ endsnippet
 snippet sf "Set up a subfile"
 \documentclass[../$1]{subfiles}
 \begin{document}
+\bibliography{Bib}
+\bibliographystyle{apalike}
 \end{document}
 $0
 endsnippet
